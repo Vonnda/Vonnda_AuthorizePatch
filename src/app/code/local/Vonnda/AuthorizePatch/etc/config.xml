@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Vonnda_AuthorizeCIM>
+            <version>1.0.0</version>
+        </Vonnda_AuthorizeCIM>
+    </modules>
+    <global>
+        <models>
+            <paygate>
+                <rewrite>
+                    <authorizenet>Vonnda_AuthorizePatch_Model_Authorizenet</authorizenet>
+                </rewrite>
+            </paygate>
+        </models>
+    </global>
+</config>
