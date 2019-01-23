@@ -1,5 +1,7 @@
 # Vonnda_AuthorizePatch
-Patch for Authorize.net API change to supported characters on 1/22/2019
+Magento 1 Patch for Authorize.net API change to supported characters on 1/22/2019
+
+*Please test on your own environments before deploying* We have not tested versions < Magento 1.9
 
 ## Installation
 To install you can either use modman or move the files into the respective locations. You can install modman from here https://github.com/colinmollenhour/modman
