@@ -6,7 +6,7 @@ To install you can either use modman or move the files into the respective locat
 
     modman clone git@github.com:Vonnda/Vonnda_AuthorizePatch.git
 
-## Description of change
+## Description of Auth.net API change
 To ensure that we are providing our merchants with the highest level of security, we are no longer allowing the following characters to be included in field values. These characters are:
 
 | Invalid Char                    | Replacement            |
