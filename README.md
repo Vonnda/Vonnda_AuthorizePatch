@@ -12,8 +12,8 @@ To ensure that we are providing our merchants with the highest level of security
 | Invalid Char                    | Replacement            |
 | ------------------------------- | ---------------------- |
 | ASCII < 32 (control characters) | `‘ ’` (one space)      |
-| ‘<’                             | ‘ ’ (one space)        |
-| ‘>’                             | ‘ ’ (one space)        |
+| ‘<’                             | `‘ ’` (one space)      |
+| ‘>’                             | `‘ ’` (one space)      |
 | %3C (URL encode of ‘<’)         | `‘   ’` (three spaces) |
 | %3E (URL encode of ‘>’)         | `‘   ’` (three spaces) |
 | &lt;  (HTML encode of ‘<’)      | `‘    ’` (four spaces) |
